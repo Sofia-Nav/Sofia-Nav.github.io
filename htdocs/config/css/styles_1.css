@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    /* Puedes cambiar el color de fondo aquí */
+    font-family: 'Roboto', sans-serif;
+    /* Cambia la fuente del cuerpo del documento */
+}
+
+
+/* Resto de tu código CSS */
+
+#container {
+    width: 400px;
+    background-color: #4b6c9e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login_btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #686868;
+    color: #fff;
+    cursor: pointer;
+}
+
+.back_btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #864242;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+.switch {
+    text-align: center;
+}
+
+.switch a {
+    text-decoration: none;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.switch a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+#loginForm h2,
+#registerForm h2 {
+    color: #fff;
+}
+
+
+/*ROLEs*/
+
+
+/* Estilos para el select */
+
+select {
+    width: calc(107% - 26px);
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 13px;
+    appearance: none;
+    /* Elimina el estilo nativo del sistema operativo */
+    -webkit-appearance: none;
+    /* Para navegadores basados en WebKit como Chrome y Safari */
+    -moz-appearance: none;
+    /* Para navegadores basados en Gecko como Firefox */
+    text-decoration: none;
+    color: #686868;
+    cursor: pointer;
+}
+
+
+/* Estilos para la flecha desplegable */
+
+select::-ms-expand {
+    display: none;
+    /* Oculta la flecha en Internet Explorer */
+}
+
+
+/* Estilos para el hover */
+
+select:hover {
+    border-color: #999;
+}
+
+
+/* Estilos para el focus */
+
+select:focus {
+    outline: none;
+    border-color: #68a8e2;
+}
+
+
+/* Estilos para las opciones */
+
+select option {
+    background-color: #fff;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px 18px;
+    margin: 9px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+
+/* O con una clase */
+
+.textarea {
+    width: 100%;
+    padding: 8px 18px;
+    margin: 9px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
